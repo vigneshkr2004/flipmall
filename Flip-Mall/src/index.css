@@ -1,0 +1,341 @@
+/* search css */
+
+.nav{
+  width: 100%;
+  background-color: rgba(19, 9, 9, 0.473);
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-family: sans-serif;
+}
+
+.flip-image{
+  width: 70px;
+  height: 65px;
+  padding: 10px;
+}
+
+.logo{
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+  gap: 10px;
+}
+
+.search{
+  padding: 8px 15px;
+  border-radius: 20px;
+  width: 400px;
+}
+
+.nav-links{
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  color: #fff;
+}
+
+.nav-links a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* product css */
+
+.product-container{
+  width: 100%;
+  /* max-width: 100px; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  padding: 10px;
+  gap: 10px;
+  background-color: rgba(19, 9, 9, 0.329);
+}
+
+.pro-container{
+  width: 100%;
+  display: flex;
+  font-family: sans-serif;
+  background-color: rgba(19, 9, 9, 0.473);
+  text-align: center;
+  padding: 3px;
+  width: 280px;
+  margin: 5px;
+  gap: 10px;
+}
+
+.p-name{
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.product-card{
+  padding: 2px;
+  background-color: rgba(184, 182, 182, 0);
+  color: #fff;
+}
+
+.image{
+  width: 100%;
+  height: 350px;
+}
+/* viewProduct - css */
+
+.view{
+  width: 100%;
+  min-height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-family: sans-serif;
+  display: flex;
+  background-color: rgba(19, 9, 9, 0.473);
+  color: #fff;
+}
+
+.view-image{
+  width: 40%;
+}
+
+.bi{
+  width: 50%;
+  font-family: sans-serif;
+  font-size: 30px;
+  margin-right: 20px;
+  gap: 20px;
+}
+
+.buy-now{
+  text-align: center;
+  padding: 30px;
+}
+
+.buy{
+  width: 200px;
+  padding: 20px;
+}
+
+
+
+/*login - form css */
+
+.register-container{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 100px;
+  padding-bottom: 30px;
+  width: 600px;
+  background-color: rgba(19, 9, 9, 0.473);
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.text{
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.inputs{
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+
+.input{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 480px;
+  height: 80px;
+  background-color: rgba(19, 9, 9, 0.192);
+  border-radius: 6px;
+}
+
+.bii{
+  margin: 0px 30px;
+  color: #fff;
+}
+
+
+.input ::placeholder{
+  color: #fff;
+}
+
+.input input{
+  height: 50px;
+  width: 400px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 19px;
+}
+
+.submit-container{
+  display: flex;
+  gap: 30px;
+  margin: 60px auto;
+}
+
+.submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 59px;
+  color: #fff;
+  background-color: #4c00b4;
+  border-radius: 50px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* about -css */
+
+.about-container{
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(19, 9, 9, 0.473);
+  padding: 20px;
+  color: #fff;
+  
+}
+
+.main{
+  width: 30%;
+}
+
+.contact{
+  padding: 10px;
+  gap: 5px;
+}
+
+.contact p{
+  font-size: 30px;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  
+}
+
+.title b{
+  font-size: 39px;
+}
+
+.main h2{
+  font-size: 40px;
+  gap: 10px;
+}
+
+.flip-logo{
+  width: 100px;
+  height: 100px;
+}
+
+.main p{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+@media(max-width:760px){
+
+  /* search - media */
+.search{width: 100%;}
+
+.nav-links{
+  display: flex;
+  width: 100%;
+  padding: 10px;
+}
+
+/* product - media */
+.product-container{
+  width: 100%;
+}
+
+.product-card{
+  width: 100%;
+  padding: 10px;
+}
+
+.pro-container{
+  width: 100%;
+}
+
+/* view product in - media */
+
+.view{
+  min-height: 100vh;
+}
+
+
+.view-image{
+  width: 100%;
+}
+
+
+.bi{
+  width: 100%;
+  font-size: 20px;
+}
+
+
+.bi a{
+  align-items: center;
+}
+
+
+/* login - media */
+
+.register-container{
+  width: 90%;
+  padding: 2px;
+}
+
+.input{
+width: 90%;
+}
+
+.submit-container{
+  width: 100%;
+  justify-content: center;
+}
+
+/* about */
+
+.about-container{
+  width: 100%;
+}
+
+.main{
+  width: 100%;
+}
+
+}

@@ -1,0 +1,289 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Apple iPhone 15",
+      "price": "₹59,900",
+      "description": "Latest Apple smartphone with A16 Bionic chip and dynamic island display.",
+      "ratings": " Rating: 4.8",
+      "Processor": "A16 Bionic chip (6-core CPU, 5-core GPU)",
+      "Display": " 6.1-inch Super Retina XDR OLED display. Features up to 2000 nits of peak outdoor brightness",
+      "ram": " 6 GB of RAM and is available in three storage 128 GB, 256 GB, and 512 GB",
+      "Cameras": " 48MP main camera (f/1.6) and 12MP Ultra Wide camera (f/2.4)",
+      "Build": "Color-infused matte glass back with contoured aerospace-grade aluminum edges",
+      "Biometrics": "Face ID",
+      "Battery": " Up to 20 hours of video playback, USB-C charging",
+      "Durability": "Rated IP68 (water resistant up to 6 meters for 30 minutes)",
+      "Weight": " 171 grams",
+      "image": {
+        "image": "/src/assets/iphone 15 1.jpg"
+      },
+      "category": "Mobiles",
+      "seler": "Apple Store",
+      "stock": " stock: 35",
+      "numofReviews": "Reviews: 420",
+      "createAt": "2026-05-20T10:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "name": "Samsung Galaxy S25",
+      "price": "₹59,865",
+      "description": "Premium Android smartphone with AMOLED display and powerful performance.",
+      "ratings": "Rating: 4.7",
+      "Display": "  6.2-inch 120Hz Dynamic LTPO AMOLED 2X, 2600 nits peak brightness",
+      "ram": " 12 GB of LPDDR5X RAM as standard across all variants. Storage configurations are available in 128 GB, 256 GB, and 512 GB",
+      "Cameras": " Main: 50MP sensor with OIS, Telephoto: 10MP with 3x optical zoom, Ultrawide: 12MP, Selfie: 12MP front camera",
+      "Battery": " 4000mAh capacity with Super Fast Charging 2.0 (charges up to 25W)",
+      "Durability": " Armor Aluminum 2 frame and Corning Gorilla Glass Victus 2 with an IP68 dust/water resistance rating",
+      "Software": " Android 15 out of the box layered with Samsung's One UI 7, bringing built-in Galaxy AI features like Gemini Live and Now Brief",
+      "Processor": " Snapdragon 8 Elite for Galaxy (optimized for high-end gaming, ray tracing, and intensive AI processing)",
+      "image": {
+        "image": "/src/assets/samsung s25-ultra.jpg"
+      },
+      "category": "Mobiles",
+      "seler": "Samsung",
+      "stock": "stock: 28",
+      "numofReviews": "Reviews: 310",
+      "createAt": "2026-05-18T08:30:00.000Z"
+    },
+    {
+      "id": "3",
+      "name": "Sony WH-1000XM5",
+      "price": "₹8,990",
+      "description": "Wireless noise cancelling headphones with immersive sound quality.",
+      "ratings": "Rating: 4.9",
+      "Noise_Cancellation": "Noise_Cancellation: Utilizes two processors controlling eight microphones to automatically and adaptively block out mid-to-high frequency background noise",
+      "Sound_Quality": " Custom-designed 30-mm driver units deliver rich audio, supporting Sony's high-res wireless LDAC audio and 360 Reality Audio",
+      "Battery": " Offers up to 30 hours of continuous playtime with ANC turned on (40 hours with ANC off)",
+      "Fast_Charging": " A quick 3-minute charge via USB-C provides up to 3 hours of playback",
+      "Connectivity": " Bluetooth 5.2 with multipoint pairing, allowing you to connect to two devices simultaneously",
+      "Comfort&Design": " Weighs roughly 250g and is crafted from newly developed 'soft fit synthetic leather' for long-lasting, pressure-free comfort",
+      "Smart_Features": " Includes Speak-to-Chat (automatically pauses music when you start talking), Quick Attention (lowers volume when you cup the earcup), and built-in Alexa and Google Assistant support",
+      "image": {
+        "image": "/src/assets/sony wh-1000xm5.jpg"
+      },
+      "category": "Audio",
+      "seler": "Sony",
+      "stock": "stock: 50",
+      "numofReviews": "Reviews: 275",
+      "createAt": "2026-05-15T12:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "name": "Dell Inspiron 15",
+      "price": "₹1,06,990",
+      "description": "Powerful laptop with Intel i7 processor, 16GB RAM, and 512GB SSD.",
+      "ratings": "Rating: 4.6",
+      "Processor": " Intel Core i3 / i5 / i7 (up to 13th Gen) or AMD Ryzen 3 / 5 / 7",
+      "display": "  15.6-inch, Resolution: HD (1366*768) or FHD (1920*1080)",
+      "ram": " 8GB or 16GB DDR4 / DDR5 (Expandable up to 16GB or 32GB depending on the model), 256GB, 512GB, or 1TB PCIe NVMe M.2 SSD",
+      "Graphics": " Integrated Intel Iris Xe, Intel UHD, or AMD Radeon Graphics (Select models offer discrete NVIDIA MX or AMD Radeon GPUs)",
+      "Battery": " 3-Cell, 41 Whr to 54 Whr capacity",
+      "Operating_System": " Windows 11 Home or Pro",
+      "Weight": " Starting at around 1.45kg(3.64lbs)",
+      "Keyboard": " Standard non-backlit or Backlit keyboard with dedicated numeric keypad",
+      "Webcam": " Integrated 720p HD camera with single digital microphone",
+      "image": {
+        "image": "/src/assets/dell inspiron 15.jpg"
+      },
+      "category": "Computers",
+      "seler": "Dell",
+      "stock": "stock: 18",
+      "numofReviews": "Reviews: 198",
+      "createAt": "2026-05-12T09:15:00.000Z"
+    },
+    {
+      "id": "5",
+      "name": "Nike Air Zoom Pegasus",
+      "price": "₹2,326",
+      "description": "Comfortable running shoes designed for daily training and sports.",
+      "ratings": "Rating: 4.5",
+      "Best_For": " Everyday road running, daily training, and long-distance comfort",
+      "Cushioning": "Cushioning: Dual Air Zoom units (heel and forefoot) paired with a ReactX foam midsole",
+      "Heel-to-Toe Drop": "10 mm",
+      "Weight": " 300 g (varies slightly by shoe generation and size)",
+      "Upper": " Improved engineered mesh that is highly breathable and lightweight",
+      "Outsole": " High-abrasion waffle-inspired rubber for optimal traction and flexibility",
+      "image": {
+        "image": "/src/assets/nike air zoom.jpg"
+      },
+      "category": "Footwear",
+      "seller": "Nike",
+      "stock": "stock: 70",
+      "numofReviews": "Reviews: 150",
+      "createAt": "2026-05-10T14:45:00.000Z"
+    },
+    {
+      "id": "6",
+      "name": "Abros",
+      "price": "₹1,326",
+      "description": "Comfortable running shoes designed for daily training and sports.",
+      "ratings": "Rating: 4.5",
+      "Best_For": " budget-friendly, highly comfortable footwear designed for running, walking, and daily wear",
+      "Cushioning": "Cushioning: Specific lines (like the Predator or Luffy series) feature built-in air units for enhanced impact absorption and springy, energized strides",
+      "Heel-to-Toe Drop": "10 mm",
+      "Weight": " 300 g (varies slightly by shoe generation and size)",
+      "Upper": " The sole cushioning is paired with breathable mesh or jacquard uppers to keep feet cool and dry during movement",
+      "Outsole": " High-abrasion waffle-inspired rubber for optimal traction and flexibility",
+      "image": {
+        "image": "/src/assets/abros.jfif"
+      },
+      "category": "Footwear",
+      "seller": "Abros",
+      "stock": "stock: 70",
+      "numofReviews": "Reviews: 150",
+      "createAt": "2026-05-10T14:45:00.000Z"
+    },
+    {
+      "id": "7",
+      "name": "Motorola G45 5G",
+      "price": "₹11,999",
+      "description": "Premium Android smartphone with AMOLED display and powerful performance.",
+      "ratings": "Rating: 4.7",
+      "Display": " 6.5-inch HD+ IPS LCD with a smooth 120Hz refresh rate",
+      "ram": " 4GB or 8GB of RAM, and 128GB of internal storage (expandable up to 1TB via microSD)",
+      "Cameras": "Main: Dual-camera setup featuring a 50MP primary sensor and a macro/depth sensor, Selfie:  16MP selfie camera. ",
+      "Battery": " 5,000 mAh battery with 18W fast charging support (varies by region up to 33W)",
+      "Durability": " Armor Aluminum 2 frame and Corning Gorilla Glass Victus 2 with an IP68 dust/water resistance rating",
+      "Software": " Android 15 out of the box layered with Samsung's One UI 7, bringing built-in Galaxy AI features like Gemini Live and Now Brief",
+      "Processor": " Qualcomm Snapdragon 6s Gen 3 (Octa-core)",
+      "image": {
+        "image": "/src/assets/moto g45.jpg"
+      },
+      "category": "Mobiles",
+      "seler": "Samsung",
+      "stock": "stock: 28",
+      "numofReviews": "Reviews: 310",
+      "createAt": "2026-05-18T08:30:00.000Z"
+    },
+    {
+      "id": "8",
+      "name": "Vivo V70 5G",
+      "price": "₹59,999",
+      "description": "Premium Android smartphone with AMOLED display and powerful performance.",
+      "ratings": "Rating: 4.7",
+      "Display": "  6.59-inch AMOLED, 1B colors, HDR10+  Up to 5,000 nits brightness",
+      "ram": "  8GB or 12GB RAM. Storage configurations are available in 256GB or 512GB (UFS 4.1, no microSD slot",
+      "Cameras": " Main: 50 MP ZEISS, f/1.9, PDAF, OIS, Telephoto: 50 MP ZEISS periscope telephoto, 3x optical zoom, OIS, Selfie: 50 MP ZEISS group selfie, f/2.0, Autofocus",
+      "Battery": "  6,500 mAh with 90W wired FlashCharge, PD reverse wired bypass charging",
+      "Durability": " Armor Aluminum 2 frame and Corning Gorilla Glass Victus 2 with an IP68 dust/water resistance rating",
+      "Software": " Android 15 out of the box layered with Samsung's One UI 7, bringing built-in Galaxy AI features like Gemini Live and Now Brief",
+      "Processor": "Qualcomm Snapdragon 7 Gen 4 (4nm Octa-core)",
+      "image": {
+        "image": "/src/assets/vivo.jfif"
+      },
+      "category": "Mobiles",
+      "seler": "Samsung",
+      "stock": "stock: 28",
+      "numofReviews": "Reviews: 310",
+      "createAt": "2026-05-18T08:30:00.000Z"
+    },
+    {
+      "id": "9",
+      "name": "MacBook Neo",
+      "price": "₹65,700 ",
+      "description": "Powerful laptop with Intel i7 processor, 16GB RAM, and 512GB SSD.",
+      "ratings": "Rating: 4.6",
+      "Processor": "Apple A18 Pro chip (6-core CPU, 5-core GPU, 16-core Neural Engine)",
+      "display": " 13.0-inch Liquid Retina display (2408 × 1506 resolution, 500 nits brightness)",
+      "ram": "8GB unified memory, 256GB or 512GB SSD",
+      "Graphics": " Integrated Intel Iris Xe, Intel UHD, or AMD Radeon Graphics (Select models offer discrete NVIDIA MX or AMD Radeon GPUs)",
+      "Battery": "Up to 16 hours of video playback",
+      "Operating_System": " Windows 11 Home or Pro",
+      "Weight": " Starting at around 1.45kg(3.64lbs)",
+      "Keyboard": " Standard non-backlit or Backlit keyboard with dedicated numeric keypad",
+      "Webcam": " Integrated 720p HD camera with single digital microphone",
+      "image": {
+        "image": "/src/assets/macbook.jfif"
+      },
+      "category": "Computers",
+      "seler": "Dell",
+      "stock": "stock: 18",
+      "numofReviews": "Reviews: 198",
+      "createAt": "2026-05-12T09:15:00.000Z"
+    },
+    {
+      "id": "10",
+      "name": " Samsung Galaxy Book4 Edge",
+      "price": "₹1,06,990",
+      "description": "Powerful laptop with Intel i7 processor, 16GB RAM, and 512GB SSD.",
+      "ratings": "Rating: 4.6",
+      "Processor": "Qualcomm Snapdragon X Plus (Up to 3.4GHz)",
+      "display": " 5.6-inch FHD (1920x1080) Anti-Glare IPS LCD (60Hz)",
+      "ram": " 16 GB LPDDR5X, 512 GB eUFS / SSD",
+      "Graphics": " Integrated Intel Iris Xe, Intel UHD, or AMD Radeon Graphics (Select models offer discrete NVIDIA MX or AMD Radeon GPUs)",
+      "Battery": "Up to 27-28 hours of local video playback",
+      "Operating_System": " Windows 11 Home or Pro",
+      "Weight": " Starting at around 1.45kg(3.64lbs)",
+      "Keyboard": " Standard non-backlit or Backlit keyboard with dedicated numeric keypad",
+      "Webcam": " Integrated 720p HD camera with single digital microphone",
+      "image": {
+        "image": "/src/assets/samsung laptop.jfif"
+      },
+      "category": "Computers",
+      "seler": "Dell",
+      "stock": "stock: 18",
+      "numofReviews": "Reviews: 198",
+      "createAt": "2026-05-12T09:15:00.000Z"
+    },
+    {
+      "id": "11",
+      "name": "Jio Phone",
+      "price": "1,000",
+      "description": "Premium Android smartphone with AMOLED display and powerful performance.",
+      "ratings": "Rating: 4.7",
+      "Display": " 2.4-inch TFT color screen (320 × 240 pixels)",
+      "ram": " 512MB RAM and 4GB internal storage (expandable up to 128GB via microSD)",
+      "Cameras": " 2 MP rear camera and 0.3 MP (VGA) front camera",
+      "Battery": "1,500 mAh to 2,000 mAh removable battery (depending on the variant)",
+      "Durability": " Armor Aluminum 2 frame and Corning Gorilla Glass Victus 2 with an IP68 dust/water resistance rating",
+      "Software": " Android 15 out of the box layered with Samsung's One UI 7, bringing built-in Galaxy AI features like Gemini Live and Now Brief",
+      "Processor": " 1.0 GHz or 1.2 GHz dual-core Spreadtrum (SC9820A / QC8905)",
+      "image": {
+        "image": "/src/assets/jio.jfif"
+      },
+      "category": "Mobiles",
+      "seler": "Samsung",
+      "stock": "stock: 28",
+      "numofReviews": "Reviews: 310",
+      "createAt": "2026-05-18T08:30:00.000Z"
+    },
+    {
+      "id": "12",
+      "name": "boAt Rockerz 450",
+      "price": "₹2,990",
+      "description": "Wireless noise cancelling headphones with immersive sound quality.",
+      "ratings": "Rating: 4.9",
+      "Noise_Cancellation": " The standard Rockerz 450 does not feature Active Noise Cancellation. (Note: If you need true Active Noise Cancellation, look for the upgraded boAt Rockerz Plus 450 ANC variant)",
+      "Sound_Quality": " Custom-designed 30-mm driver units deliver rich audio, supporting Sony's high-res wireless LDAC audio and 360 Reality Audio",
+      "Battery": "Up to 15 hours of continuous audio, 300mAh lithium battery",
+      "Fast_Charging": "Approximately 3 hours to fully charge.",
+      "Connectivity": " Bluetooth V4.2 with a range of up to 10 meters, In AUX mode, the headphone's internal battery does not drain, allowing you to listen via wire even if the battery is dead",
+      "Comfort&Design": " Weighs roughly 250g and is crafted from newly developed 'soft fit synthetic leather' for long-lasting, pressure-free comfort",
+      "Smart_Features": " Includes Speak-to-Chat (automatically pauses music when you start talking), Quick Attention (lowers volume when you cup the earcup), and built-in Alexa and Google Assistant support",
+      "image": {
+        "image": "/src/assets/boat.jfif"
+      },
+      "category": "Audio",
+      "seler": "Sony",
+      "stock": "stock: 50",
+      "numofReviews": "Reviews: 275",
+      "createAt": "2026-05-15T12:00:00.000Z"
+    }
+  ],
+  "users": [
+    {
+      "Name": "vicky",
+      "Email": "vicky@gmail.com",
+      "Password": "123456",
+      "id": "FDpJUTEVYYw"
+    },
+    {
+      "Name": "fsaf",
+      "Email": "fadasaf",
+      "Password": "fadsfdsafasdffdasfd",
+      "id": "y2toOZWZi6M"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
