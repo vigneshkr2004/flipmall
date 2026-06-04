@@ -31,11 +31,16 @@ function Viewproducts() {
   }
 
     useEffect(()=>{
-      fetch("http://localhost:3000/products/"+id)
+      fetch(`https://raw.githubusercontent.com/vigneshkr2004/flipmall/9ef3c059d3ee623369627f9f672b43d4ffec243b/Flip-Mall/data/products.json`)
       .then((response)=>response.json())
-      .then((data)=> setViewproduct(data))
+      .then((data)=> {
+        const product = data.products.find(
+        (p)=> p.id === id
+        );
+        setViewproduct(product)
+      })
       .catch((err)=>console.log(err))
-    },[])
+    },[id])
 
     const specs = [
       {icon: "bi-cpu", key:"Processor"},

@@ -7,12 +7,11 @@ function Products() {
 
   const [products, setProducts] = useState([])
   const navigate = useNavigate()
-  const {id} = useParams()
 
   useEffect(()=>{
-    fetch("http://localhost:3000/products")
+    fetch("https://raw.githubusercontent.com/vigneshkr2004/flipmall/9ef3c059d3ee623369627f9f672b43d4ffec243b/Flip-Mall/data/products.json")
     .then((response)=> response.json())
-    .then((data)=>setProducts(data))
+    .then((data)=>setProducts(data.products))
     .catch((error)=>console.log(error))
   },[])
 
@@ -23,7 +22,7 @@ function Products() {
             {products.map((product)=>{
               return(
                 <div key={product.id}  className='pro-container'>
-                  <div className='product-card' onClick={()=> {navigate('/product/'+product.id)}}>
+                  <div className='product-card' onClick={()=> {navigate(`/product/${product.id}`)}}>
                     <img className='image' src={product.image.image} alt={product.name} />
                     <b className='p-name'>{product.name}</b>
                     <p>{product.ram}</p>
