@@ -21,7 +21,7 @@ function Viewproducts() {
 
     if(users.length > 0){
       alert ('Product Purchased Successfully')
-      console.log()
+      navigate('/')
     }
     else{
       alert('User Not Registered')

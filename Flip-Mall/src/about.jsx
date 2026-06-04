@@ -6,7 +6,7 @@ function About() {
         <div className='main'>
             <h2>About Us</h2>
             <div className='title'>
-                <img className="flip-logo rounded-circle" src="src/assets/fm.png" alt="filp-image" />
+                <img className="flip-logo rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8ESc9VLlF1yB6YKGByUsuvluPY995v-AQQg&s" alt="filp-image" />
                 <b> FlipMall </b>
             </div>
             <p>Welcome to All</p>

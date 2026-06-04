@@ -20,7 +20,7 @@ const router = createBrowserRouter([
     path: '/login',
     element: <Login />
   }
-])
+],{basename:'/flipmall'})
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

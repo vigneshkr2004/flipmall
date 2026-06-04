@@ -23,7 +23,7 @@ function Products() {
             {products.map((product)=>{
               return(
                 <div key={product.id}  className='pro-container'>
-                  <div className='card product-card' onClick={()=> {navigate('/product/'+product.id)}}>
+                  <div className='product-card' onClick={()=> {navigate('/product/'+product.id)}}>
                     <img className='image' src={product.image.image} alt={product.name} />
                     <b className='p-name'>{product.name}</b>
                     <p>{product.ram}</p>
